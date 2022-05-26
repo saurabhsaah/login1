@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(#9397a0,#e2d8d9) ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    /* background-image: url(image/body-bg.jpg);
+    background-size: 100%; */
+}
+        /* DIV login Style */
+.login{
+    background-color: #d0cfd4;
+    margin-top: 150px;
+    margin-bottom: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    height: 400px;
+    box-shadow: 10px 10px 10px #787474;
+}
+.login{
+    border-style: solid;
+    border-color: #feffff;
+    border-radius: 5px;
+}
+
+        /* SIGN IN Style */
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #5cc5ff;
+}
+
+        /* Form Tag Style */
+form{
+    text-align: center;
+}
+
+#username{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 40px;
+    border-radius: 5px;
+    color: #577381;
+    margin-top: 20px;
+    margin-left: auto;
+    border-width: 0px;
+
+}
+::placeholder{
+    padding-left: 15px;
+}
+#username-icon{
+    width:25px;
+    color: #577381;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #577381;
+    border-top-width: 0ch;
+    border-bottom-width: 0ch;
+    border-left-width: 0ch;
+    border-right-width: 2px;
+    padding-right: 5px;
+    position: absolute;
+    top: 313px;
+    left: auto;
+    z-index: 2;
+}
+
+        /* User Image */
+#user-icon{
+    margin-left: 38%;
+    width: 80px;
+    text-align: center;
+    
+}
+#password{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 40px;
+    border-radius: 5px;
+    color: #577381;
+    margin-top: 20px;
+    margin-left: auto;
+    border-width: 0px;
+}
+#password-icon{
+    color: #577381;
+    width:25px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #577381;
+    border-top-width: 0ch;
+    border-bottom-width: 0ch;
+    border-left-width: 0ch;
+    border-right-width: 2px;
+    padding-right: 5px;
+    position: absolute;
+    top: 365px;
+    left: auto;
+    z-index: 2;
+}
+#login-btn{
+    margin-top: 70px;
+    margin-left: auto;
+    padding: 10px 90px;
+    color: white;
+    background-color: #5cc5ff;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
